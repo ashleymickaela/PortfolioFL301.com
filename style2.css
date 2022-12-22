@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.act-col{
+    flex-basis: 31%;
+    margin-left: 72px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    position: relative;
+    overflow:hidden;
+    margin-bottom: 25px;
+}
+
+.act-col img{
+    border-radius: 4px;
+    width: 80%;
+    height: 200px;
+   
+}
+
+.layer{
+    background: transparent;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: 1s;
+    border-radius: 4px;
+}
+
+
+
+.layer:hover{
+    background: rgba(241, 211, 179, 0.699);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+span{
+    font-size: 10px;
+}
+.layer h3{
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 32%;
+    opacity: 1;
+}
+
+.row{
+margin-top: 5%;
+display:flex;
+justify-content:space-between;
+}
+
+.title{
+    font-size: 20px;
+    text-align: center;
+    background: #fff5e2;
+    padding: 15px;
+    border-radius: 2px;
+    color: #594545;
+    border-bottom: 2px solid#F0E9D2;
+}
+
+
+
+
+.content{
+    background-image: url(images/Untitled\ design.png);
+    
+   padding-top: 10px;
+   border-radius: 2px;
+   padding-bottom: 10px;
+}
+
+.final{
+    margin: 50px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://wallpaper.dog/large/20523697.jpg);
+    background-position: center;
+    background-size:cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.final h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn1:hover{
+    border: 1px solid #8B7E74;
+    background: #8B7E74;
+    transition: 0.5s;
+}
+
+.footer{
+    background: #fff5e2;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+    
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+
+.footer a, p{
+    text-decoration: none;
+    color: #3C2317;
+}
+        
+.icons .fa{
+    color: #3C2317;
+    margin: 0 30px;
+    cursor: pointer;
+    padding: 20px 0;  
+}
+    
+.fa-heart-o{
+    color: #3C2317;
+}
+    
+.footer #last{
+    font-size: 10px;
+}
+    
+    /*activities*/
+.box1{
+    height: 500px;
+    width: 600px;
+    margin: 55px 55px 0 75px;
+    background: #C7BCA1;
+    float: left;
+    border-radius: 20px;
+    text-align: justify;
+    color: white;
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 25px
+}
+
+.box2{
+    height: 500px;
+    width: 600px;
+    position: relative;
+    margin: 55px 75px 0 0;
+    background: #c7bca198;
+    float: right;
+    border-radius: 20px;
+    padding: 0px 40px;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    color: #3C2317;
+    text-align: center;
+    background: #F1D3B3;
+}
+
+video{
+    border-radius: 5px;
+    margin-top: 104px;
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+    background: #F7F6DC;
+}
+
+.footer1{
+    text-align: center;
+    background: #F1D3B3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    padding-top: 15px;
+    color: #fff;
+    font-size: 40px;
+        
+}
+
+.box2 #audiopng{
+    margin-top: 70px;
+    width: 400px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+audio{
+    margin: 290px 32px;
+    width: 450px;
+}
+
+#videoact{
+    margin: 85px 137px;
+}
+
+#videoact8{
+    margin: 30px 135px;
+}
+
+.box2 img{
+    width: 515px;
+    margin-top: 95px;    
+}
+
+
+
+    
+
+   
+    
+    
+
